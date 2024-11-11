@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tailwind/css/tailwind.css">
+    <link rel="stylesheet" href="Tailwind/animations/animations.css">
+    <link rel="stylesheet" href="Tailwind/scroll/scroll.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Franco Brian Anoer</title>
+</head>
+<body class="bg-slate-800 font-poppins text-slate-400">
+    <nav class="p-4">
+        <div class="container mx-auto flex justify-center items-center">
+    
+          <!-- Links (hidden on small screens) -->
+          <div class="hidden md:flex space-x-6">
+            <a href="#home" class=" hover:text-gray-200">Home</a>
+            <a href="#about" class=" hover:text-gray-200">About</a>
+            <a href="#project" class=" hover:text-gray-200">Project</a>
+            <a href="#contact" class=" hover:text-gray-200">Contact</a>
+          </div>
+    
+          <!-- Mobile Menu Button -->
+          <button id="menu-btn" class="md:hidden  focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+    
+        <!-- Mobile Menu (hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-2">
+          <a href="#home" class="block  hover:bg-blue-500 px-4 py-2">Home</a>
+          <a href="#about" class="block  hover:bg-blue-500 px-4 py-2">About</a>
+          <a href="#project" class="block  hover:bg-blue-500 px-4 py-2">Project</a>
+          <a href="#contact" class="block  hover:bg-blue-500 px-4 py-2">Contact</a>
+        </div>
+      </nav>
+
+      <div id="home" class="h-screen flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0 md:space-x-8">
+        <!-- Text Section -->
+        <div class="text-center md:text-left">
+            <p>
+                <span class="text-4xl block">
+                    Greetings, Mother Earth!<br>
+                </span>
+                <span class="text-7xl block font-bold text-white">
+                    I'm Franco Anore<br>
+                </span>
+                <span class="text-2xl">
+                    <span id="animated-text" class="animated-text">A Future Developer</span><br>
+                </span>
+                <span>
+                    A student wandering around the globe, researching the vast universe and creating my own technology.<br>
+                    Curiosity makes a difference.
+                </span><br>
+                <a href="#about">
+                    <button class="mt-7 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold text-lg
+                    transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0px_0px_15px_5px_rgba(99,102,241,0.7)]">
+                        <span class="text-white">
+                            Learn more about me
+                        </span>
+                    </button>
+                </a>
+            </p>
+        </div>
+    
+        <!-- Image Section -->
+        <img src="assets/a1.jpg" alt="Franco Brian Anore" 
+            class="h-80 w-80 rounded-full 
+            hover:shadow-[0px_0px_20px_5px_rgba(59,130,246,0.5)] 
+            transition duration-300 ease-in-out transform hover:scale-105 ">
+    </div>
+    
+    <div id="about" class="min-h-screen justify-center items-center">
+        <div class=" flex flex-col items-center">
+            <span class="font-semibold text-4xl text-white mt-10">
+                About me
+            </span><br>
+            <span class="m-5">
+                I'm a wandering researcher, exploring the vast universe with my full potential.
+            </span>
+        </div>
+        <div class="flex justify-around m-5">
+            <div class="flex flex-col justify-start mt-10">
+                <span class="text-4xl text-white">
+                    Me
+                </span><br>
+                <span class="m-1">
+                    I began programming when the tables have turned 17,<br> I studied different vast programming
+                    language.<br> This time I want to focus on Web Development <br>for the basic criteria of the developer.
+                    I also <br>studied MySql and MySql Server for database <br>management, also learned C++, Java, C#, and Vb.net.<br>
+                </span>
+            </div>
+            <div class="flex flex-col justify-start mt-10">
+                <span class="text-4xl text-white">
+                    Education
+                </span><br>
+                <span class="mb-4">
+                    Bachelor of Science in Information Technology
+                    <span class="text-xs font-light"><br>
+                        2023-Present
+                    </span><br>
+                    <span>
+                        University of Rizal System Binangonan Campus
+                    </span>
+                </span>
+                <span class="mb-4">
+                    Information and Communications Tehnology<span class="font-bold"> (GWA: 90)</span>
+                    <span class="text-xs font-light"><br>
+                        2021-2023
+                    </span><br>
+                    <span>
+                        ⦁ With Honors<br>
+                        ⦁ Loyalty Awardee
+                    </span><br>
+                    <span>
+                        Philippine Best Training Systems Inc.(PBTS)
+                    </span>
+                </span>
+                <span class="mb-4">
+                    Junior High School
+                    <span class="text-xs font-light"><br>
+                        2017-2021
+                    </span><br>
+                    <span>
+                        ⦁ Loyalty Awardee
+                    </span><br>
+                    <span>
+                        Binangonan Garden of Learners
+                    </span>
+                </span>
+                <span class="mb-4">
+                    Elementary
+                    <span class="text-xs font-light"><br>
+                        2013-2017
+                    </span><br>
+                    <span>
+                        Binangonan Garden of Learners
+                    </span>
+                </span>
+                <span class="mb-4">
+                    Elementary
+                    <span class="text-xs font-light"><br>
+                        2011-2013
+                    </span><br>
+                    <span>
+                        Child Jesus of Prague School
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="project" class="min-h-screen flex flex-col justify-center items-center">
+        <div class="text-7xl items-center justify-center flex flex-col">
+            <span id="project-text" class="text-center m-5 lg">This person is wandering around the galaxy.</span>
+        </div>
+        <a href="#contact">
+            <button class="mt-7 px-6 py-3  bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold text-lg
+            transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0px_0px_15px_5px_rgba(99,102,241,0.7)]">
+            <span class="text-white">
+                Bring me back to Earth.
+            </span>
+            </button>
+        </a>
+    </div>
+    <div id="contact" class="h-screen flex flex-col justify-center items-center text-center">
+        <span class="text-4xl text-white">
+            Contact Me
+        </span><br>
+        <span class="text-xl ml-10 mr-10">
+            Launching into new frontiers! If you're searching for stellar opportunities or have burning questions about the cosmos, I'm your cosmic companion. Let's defy gravity and explore uncharted territories together. Whether you're an Earthling or an extraterrestrial, reach out and let's orbit the possibilities. Shoot me a message and let's connect across the vast expanse of the universe.
+        </span>
+        <div class="flex space-x-4">
+            <a href="https://www.facebook.com/FrancoTheGreatXVlll">
+                <button class="mt-7 px-6 py-3  bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold text-lg
+                transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0px_0px_15px_5px_rgba(99,102,241,0.7)]">
+                <span class="text-white">
+                    Contact me
+                </span>
+                </button>
+            </a>
+            <a href="mailto:anorefranco.04@gmail.com">
+                <button class="mt-7 px-6 py-3  bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold text-lg
+                transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0px_0px_15px_5px_rgba(99,102,241,0.7)]">
+                    <img src="assets/gmail.png" alt="" srcset="" class="h-7 w-7 mx-auto">
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="fixed bottom-10 right-10">
+        <a href="#home">
+            <button class="mt-7 px-6 py-3  bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold text-lg
+            transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0px_0px_15px_5px_rgba(99,102,241,0.7)]">
+                <span class="text-white">
+                    ↺
+                </span>
+            </button>
+        </a>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
